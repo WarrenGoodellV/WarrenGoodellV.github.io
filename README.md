@@ -7,8 +7,8 @@
 * JS
 
 ## In-Class Assignments 
-* ICA1
-* ICA2
+* [ICA1](/ica/ICA1%20--%20Warren%20Goodell.pdf)
+* [ICA2](/ica/ICA2%20--%20Warren%20Goodell.pdf)
 * ICA3
 * ICA4
 * ICA5
