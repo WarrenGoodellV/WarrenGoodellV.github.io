@@ -24,8 +24,8 @@
 * ICA15
 
 ## Weekly Assignment
-* [WA1](../WarrenGoodellV.github.io/wa/wa1.html)
-* [WA2](../WarrenGoodellV.github.io/wa/wa2.html)
+* [WA1](https://warrengoodellv.github.io/wa/wa1.html)
+* [WA2](https://warrengoodellv.github.io/wa/wa2.html)
 * WA3
 * WA4
 * WA5
