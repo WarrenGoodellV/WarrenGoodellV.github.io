@@ -10,7 +10,7 @@
 * [ICA1](/ica/ICA1%20--%20Warren%20Goodell.pdf)
 * [ICA2](/ica/ICA2%20--%20Warren%20Goodell.pdf)
 * [ICA3A](/ica/ICA3A_WarrenGoodell.html)
-* ICA3B
+* [ICA3B](/ica/ICA3B_WarrenGoodell.html)
 * ICA4
 * ICA5
 * ICA6
