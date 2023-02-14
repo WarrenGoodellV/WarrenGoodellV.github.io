@@ -2,7 +2,7 @@
 
 
 ## Projects
-* HTML
+* [HTML](/html-midterm/page5.html)
 * CSS
 * JS
 
@@ -12,7 +12,7 @@
 * [ICA3A](/ica/ICA3A_WarrenGoodell.html)
 * [ICA3B](/ica/ICA3B_WarrenGoodell.html)
 * [ICA4](/ica/ICA4_WarrenGoodell.html)
-* ICA5
+* [ICA5](/ica/ica5.html)
 * ICA6
 * ICA7
 * ICA8
