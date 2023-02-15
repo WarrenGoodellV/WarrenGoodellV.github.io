@@ -2,7 +2,7 @@
 
 
 ## Projects
-* [HTML](/html-midterm/page5.html)
+* [HTML](https://warrengoodellv.github.io/html-midterm/page5.html)
 * CSS
 * JS
 
