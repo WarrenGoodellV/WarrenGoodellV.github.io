@@ -1,0 +1,54 @@
+.img{
+    background: url(/img/snowy_background.jpg); 
+    background-repeat:no-repeat;
+    background-size: 90em 40em;
+    display: block;
+    width: 90em;
+    height:40em;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 3em;
+    left: 5em;
+    font-size: 2em;
+    width:10em;
+    background-image: linear-gradient(to right,#7EE8FA, #EEC0C6);
+    color:purple;
+}
+
+.emergency{
+    position: absolute;
+    bottom:0.5em;
+    width:100%;
+    text-align: center;
+    color:lightblue;
+    background-image: repeating-linear-gradient(
+        45deg,
+        yellow,
+        yellow 30px,
+        black 30px,
+        black 50px
+      );
+}
+
+h2{
+    display: inline;
+    float: top;
+    text-align: left;
+    padding-left:0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 5em;
+}
+
+h4{
+    display: inline;
+    float: center;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-top: 5em;
+}
+.highlight{
+    background-color: black;
+}
