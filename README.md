@@ -13,7 +13,9 @@
 * [ICA3B](/ica/ICA3B_WarrenGoodell.html)
 * [ICA4](/ica/ICA4_WarrenGoodell.html)
 * [ICA5](https://warrengoodellv.github.io/ica/ica5.html)
-* ICA6
+* [ICA6 part 1](https://warrengoodellv.github.io/ica/ICA6/ica6-part1.html)
+* [ICA6 part 2](https://warrengoodellv.github.io/ica/ICA6/ica6-part2.html)
+* [ICA6 part 3](https://warrengoodellv.github.io/ica/ICA6/ica6-part3.html)
 * ICA7
 * ICA8
 * ICA9
