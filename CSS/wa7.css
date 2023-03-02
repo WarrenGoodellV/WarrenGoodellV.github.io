@@ -21,7 +21,7 @@ nav{
 }
 
 nav:hover {
-    rotate: 180deg;
+    transform: rotate(180deg);
 }
 
 nav a{
