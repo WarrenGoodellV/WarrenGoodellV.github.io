@@ -2,20 +2,109 @@ html {
     background-color: #ffe4c4;
 }
 
-h1{
+/* HEADING */
+
+/*heading main text */
+.box1 h1{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 60px;
 }
-
-h3{
+/*heading sub text */
+.box1 h3{
     text-align: center;
     font-size: 30px;
 }
-
+/*positioning of header */
 .box1 {
-    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(212, 117, 117);
     border-radius: 170px;
     margin-left: 250px;
     margin-right: 250px;
 }
+
+/* DROP DOWN BAR */
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* CONTENT */
+
+  .projects{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    overflow: hidden;
+  }
+
+  .electricHarp p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+  }
