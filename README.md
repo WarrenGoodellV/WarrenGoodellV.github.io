@@ -18,7 +18,7 @@
 * [ICA6 part 3](https://warrengoodellv.github.io/ica/ICA6/ica6-part3.html)
 * [ICA7](https://warrengoodellv.github.io/ica/ica7.html)
 * ICA8
-* ICA9
+* [ICA9](https://warrengoodellv.github.io/ica/ica9.html)
 * ICA10
 * ICA11
 * ICA12
