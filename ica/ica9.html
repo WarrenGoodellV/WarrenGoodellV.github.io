@@ -27,8 +27,11 @@
 <br>
     <div class="form">
         <label for="guessField">Enter a guess: </label>
-        <input type="number" min="1" max="100" required id="guessField" class="guessField"></label>
+        <input type="number" min="1" max="100" required id="guessField" class="guessField">
         <input type="submit" value="Submit guess" class="guessSubmit">
+        <input type="checkbox" value="checkbox" class="checkbox">
+        <input type="date" value="dateTime" class="dateTime">
+        <input type="submit" value="Submit again" class="submitPt2">
     </div>
 
     <script>
@@ -60,6 +63,24 @@
         //console.log(guessBtn)
         guessBtn.addEventListener('click', checkGuess);
 
+
+        let checkbox = document.querySelector(".checkbox")
+
+        function checked() {
+            document.body.style.backgroundColor = "blue";
+            alert("Checked");
+        }
+
+        checkbox.addEventListener('click', checked);
+
+        let dateTime = document.querySelector(".dateTime");
+        let submitPt2 = document.querySelector(".submitPt2");
+
+        function date() {
+            alert("Thats your birthday, huh?");
+        }
+
+        submitPt2.addEventListener('click', date);
 
     </script>
 </body>

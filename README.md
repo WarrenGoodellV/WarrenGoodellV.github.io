@@ -3,7 +3,7 @@
 
 ## Projects
 * [HTML](https://warrengoodellv.github.io/html-midterm/page5.html)
-* CSS
+* [CSS](https://warrengoodellv.github.io)
 * JS
 
 ## In-Class Assignments 
@@ -33,7 +33,7 @@
 * [WA4](https://warrengoodellv.github.io/wa/wa4.html)
 * [WA5](https://warrengoodellv.github.io/wa/wa5.html)
 * [WA6](https://warrengoodellv.github.io/wa/wa6.html)
-* WA7
+* [WA7](https://warrengoodellv.github.io/wa/wa7.html)
 * WA8
 * WA9
 * WA10
