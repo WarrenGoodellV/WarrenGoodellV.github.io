@@ -21,3 +21,18 @@ for(const image of arrNames) {
 }
 
 /* Wiring up the Darken/Lighten button */
+btn.addEventListener('click',wire);
+
+function wire() {
+    if (btn.classList.contains('dark')){
+        btn.setAttribute("class", 'light');
+        btn.textContent = 'Lighten';
+        overlay.style.backgroundColor = "rgba(0,0,0,0.5)";
+    }
+    else {
+        btn.setAttribute("class", 'dark');
+        btn.textContent = 'Darken';
+        overlay.style.backgroundColor = "rgba(0,0,0,0)";
+    }
+}
+
