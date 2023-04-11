@@ -21,7 +21,7 @@
 * [ICA9](https://warrengoodellv.github.io/ica/ica9.html)
 * [ICA10](https://warrengoodellv.github.io/ica/ica10.html)
 * [ICA11](https://warrengoodellv.github.io/ica/ica11.html)
-* ICA12
+* [ICA12](https://warrengoodellv.github.io/ica/ica12.html)
 * ICA12
 * ICA14
 * ICA15
@@ -37,7 +37,7 @@
 * WA8
 * [WA9](https://warrengoodellv.github.io/wa/wa9.html)
 * [WA10](https://warrengoodellv.github.io/wa/wa10.html)
-* [WA1](https://warrengoodellv.github.io/wa/wa11.html)
+* [WA11](https://warrengoodellv.github.io/wa/wa11.html)
 * WA12
 * WA13
 * WA14
