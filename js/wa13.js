@@ -8,28 +8,45 @@ function submit() {
     alert("Your volume is now: " + output.textContent);
 }
 
-function reset() {
-    outputInt = 0;
-    output.textContent = outputInt;
-}
+// function reset() {
+//     outputInt = 0;
+//     output.textContent = outputInt;
+// }
 
-function minus() {
-    if (outputInt > 0) {
-    outputInt -=1;
-    output.textContent = outputInt; }
+// function minus() {
+//     if (outputInt > 0) {
+//     outputInt -=1;
+//     output.textContent = outputInt; }
     
+// }
+
+// function plus() {
+//     if (outputInt < 100) {
+//     outputInt +=1;
+//     output.textContent = outputInt;
+//     }
+// }
+
+function random() {
+    outputInt = randomNumber(7, 100);
+    output.textContent = outputInt;
+    console.log("outputInt " + outputInt);
+    decrease(outputInt);
 }
 
-function plus() {
-    if (outputInt < 100) {
-    outputInt +=1;
-    output.textContent = outputInt;
+function decrease(num) {
+    console.log("num " + num);
+    if(num > 0){
+        var newNum = setTimeout(createNum(num), 3000);
+        console.log("newNum " + newNum);
+        output.textContent = newNum;
     }
 }
 
-function random() {
-    outputInt = randomNumber(0, 100);
-    output.textContent = outputInt;
+function createNum(number) {
+    console.log("number " + number)
+    number -= 7;
+    console.log('second number ' + number)
 }
 
 function randomNumber(min, max) {
@@ -43,9 +60,9 @@ const output = document.querySelector('.output');
 let outputInt = parseInt(output.textContent);
 console.log(outputInt);
 
-const minusButton = document.querySelector('.minus-button').addEventListener('click', minus);
-const plusButton = document.querySelector('.plus-button').addEventListener('click', plus);
-const resetButton = document.querySelector('.reset-button').addEventListener('click', reset);
+// const minusButton = document.querySelector('.minus-button').addEventListener('click', minus);
+// const plusButton = document.querySelector('.plus-button').addEventListener('click', plus);
+// const resetButton = document.querySelector('.reset-button').addEventListener('click', reset);
 const randomButton = document.querySelector('.random-button').addEventListener('click', random);
 const submitButton = document.querySelector('.submit-button').addEventListener('click', submit);
 
@@ -54,19 +71,19 @@ const submitButton = document.querySelector('.submit-button').addEventListener('
 const output = document.querySelector('.output');
 let phone_content = document.querySelector('.phone');
 button.addEventListener('click', updateOutput);
-function updateOutput() {
-    output.textContent = phone_content.value;
-    alert(phone_content.value);
-}
+// function updateOutput() {
+//     output.textContent = phone_content.value;
+//     alert(phone_content.value);
+// }
 */
 
 
-var slider = document.getElementById("myRange");
-var sliderSubmit = document.querySelector(".slider-submit-button").addEventListener('click', update);
-var sliderOutput = document.querySelector(".slider-output");
+// var slider = document.getElementById("myRange");
+// var sliderSubmit = document.querySelector(".slider-submit-button").addEventListener('click', update);
+// var sliderOutput = document.querySelector(".slider-output");
 
 
 // Update the current slider value (each time you drag the slider handle)
-function update() {
-  sliderOutput.textContent = slider.value;
-}
+    // function update() {
+    // sliderOutput.textContent = slider.value;
+    // }
