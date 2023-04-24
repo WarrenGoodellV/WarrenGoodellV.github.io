@@ -29,24 +29,25 @@ function submit() {
 
 function random() {
     outputInt = randomNumber(7, 100);
-    output.textContent = outputInt;
-    console.log("outputInt " + outputInt);
     decrease(outputInt);
 }
 
 function decrease(num) {
     console.log("num " + num);
-    if(num > 0){
-        var newNum = setTimeout(createNum(num), 3000);
-        console.log("newNum " + newNum);
-        output.textContent = newNum;
+    if((num > 0) && (num < 100)){
+        output.textContent = num;
+        setTimeout(function() {
+            var newNum = createNum(num);
+            decrease(newNum);
+        }, 800);
     }
 }
 
 function createNum(number) {
-    console.log("number " + number)
-    number -= 7;
-    console.log('second number ' + number)
+    console.log("number " + number);
+    number = number - 7;
+    console.log('second number ' + number);
+    return number;
 }
 
 function randomNumber(min, max) {
