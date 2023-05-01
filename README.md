@@ -39,6 +39,6 @@
 * [WA10](https://warrengoodellv.github.io/wa/wa10.html)
 * [WA11](https://warrengoodellv.github.io/wa/wa11.html)
 * [WA12](https://warrengoodellv.github.io/wa/wa12.html)
-* [WA13](https://warrengoodellv.github.io/wa/wa13.html)
-* WA14
+* [WA13](https://warrengoodellv.github.io/wa13.html)
+* [WA14](https://warrengoodellv.github.io/wa/wa14.html)
 * WA15
